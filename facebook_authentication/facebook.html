@@ -1,0 +1,256 @@
+<!DOCTYPE>
+<html lang="en">
+
+<head>
+	
+	<!-- <link rel="stylesheet" type="text/css" href="facebook.css" > -->
+	<title>facebook login</title>
+
+	<style>
+		body{
+			margin: 0px;
+			padding: 0px;
+			font-family: tahoma;
+			background-color: #ccc;
+		}
+
+
+		.header{
+			background-color: #003399;
+			color: #fff;
+			height: 10%;
+			padding-bottom: 0px;
+			margin-bottom: 0px;
+		}
+
+		.header > h2{
+			float: left;
+			margin-top: 23px;
+			padding: 0px 0px 5px 20%;
+			font-size: 40px;
+		}
+
+		#login_form{
+			float: right;
+			margin-top: 15px;
+			margin-right: 20px;
+			width: 30%;
+			height: 10%;
+			font-size: 13px;
+		}
+
+		#email-phone_login{
+			float: left;
+			margin-right: 10px;
+		}
+
+		#password_login{
+			float: left;
+			margin-right: 10px;
+		}
+
+		#login_form input[type="button"]{
+			border-color: #092d75;
+			background-color: #003399;
+			font-size: 13px;
+			padding: 3px 7px;
+			color: white;
+			margin-top: -3px;
+			border-radius: 5px;
+		}
+
+		#password_login a, #password_login a:link, #password_login a:visited{
+			text-decoration: none;
+			padding-top: 10px;
+			color: #0066FF;
+		}
+
+		#password_login a:hover{
+			text-decoration: underline;
+		}
+
+		.body{
+			width: 100%;
+		}
+
+		#right_section{
+			float: right;
+			width: 50%;
+			margin-top: -20px;
+		}
+
+		#left_section{
+			float: left;
+			width: 50%;
+		}
+
+		.section_container{
+			padding: 20px;
+		}
+
+		#right_section form a:link, #right_section form a:visited{
+			color: blue;
+			font-size: 12px;
+			text-decoration: none;
+		}
+
+		#right_section form a:hover{
+			text-decoration: underline;
+		}
+
+		#right_section form input[type="text"]{
+			font-size: 15px;
+			padding: 5px 5px;
+			border-radius: 5px;
+		}
+
+		#right_section input[type="button"]{
+			background-color: green;
+			color: white;
+			font-weight:;
+			font-size: 17px;
+			padding: 10px 30px;
+			border-radius: 5px;
+			border-color: green;
+		}
+
+		#day_select {
+			float: left;
+			font-size: 12pt;
+		}
+
+		#month_select{
+			float: left;	
+			padding-left: 3px;
+			font-size: 12pt;
+		}
+
+		#year_select{
+			float: left;	
+			padding-left: 3px;
+			font-size: 12pt;
+		}
+
+		#CreateAcc_agreement{
+			font-size: 11px;
+		}
+
+		img{
+			width: 600px; 
+			height: 300px;
+			margin-top: 50px;
+			padding-left: 70px;
+		}
+
+		.clear{
+			clear:both;
+		}
+
+	</style>
+
+</head>
+
+
+<body>
+
+	<!-- THIS IS THE HEADER AND LOGIN PAGE -->
+	<div class="header">
+		<h2>facebook</h2>
+		
+		<div id="login_form"> 
+			<form>
+				<span id="email-phone_login">Email or Phone<br /> <input type="text" size="20" /></span>
+				<span id="password_login">Password <br /> <input type="password" size="20" /> <br /> <a href="#">Forgotten account?</a> </span>
+				<span id="login_button"> <br /> <input type="button" value="log in" /></span>
+			</form>
+		</div>
+	</div>
+
+	<div class="clear"></div>
+	
+	<!-- THIS IS THE BODY -->
+	<div class="body">
+	
+		<!-- THE LEFT SIDE CODING START HERE -->
+		<div id="left_section">
+			<div class="section_container">
+				<p style="text-align: center;">Facebook helps you connect and share with the people in your life.</p>
+				<img src="facebook_network_image.png" />
+			</div>
+		</div>
+
+		<!-- THIS RIGHT SIDE CODING START HERE, AND CONSISTING OF THE REGISTRATION FORM  -->
+		<div id="right_section">
+			<div class="section_container">
+				<h1>Create an account</h1>
+				<h3>It's free and always will be </h3>
+				
+				<form>
+					
+					<input type="text" placeholder="First name" size="20" />
+					<input type="text" placeholder="surname"  size="20" /><br /><br />
+					<input type="text" placeholder="Mobile number or email address" size="46" /><br /><br />
+					<input type="text" placeholder="Re-enter mobile number or email address" size="46" /><br /><br />
+					<input type="text" placeholder="New password" size="46" /><br /><br />
+					
+					<h2>Birthday</h2>
+					
+					<div id="day_select"><select>
+						<option value="Day"> Day </option> <option value="1" > 1 </option> 	<option value="2" > 2 </option> <option value="3" > 3 </option> <option value="4" > 4 </option>
+						<option value="5" > 5 </option>	<option value="6" > 6 </option> <option value="7" > 7 </option> <option value="8" > 8 </option> 
+						<option value="9" > 9 </option>
+						<option value="10" > 10 </option> <option value="11" > 11 </option> <option value="12" > 12 </option> <option value="13" > 13 </option> <option value="14" > 14 </option>
+						<option value="15" > 15 </option> <option value="16" > 16 </option> <option value="17" > 17 </option> <option value="18" > 18 </option> <option value="19" > 19 </option>
+						<option value="20" > 20 </option> <option value="21" > 21 </option> <option value="22" > 22 </option> <option value="23" > 23 </option>	<option value="24" > 24 </option>
+						<option value="25" > 25 </option> <option value="26" > 26 </option>	<option value="27" > 27 </option> <option value="28" > 28 </option> <option value="29" > 29 </option>
+						<option value="30" > 30 </option> <option value="31" > 31 </option>
+					</select></div>
+					
+					<div id="month_select"><select>
+						<option value="Month"> Month </option> <option value="January" > January </option> 	<option value="February" > February </option> 
+						<option value="March" > March </option> <option value="April" > April </option> <option value="May" > May </option>	
+						<option value="June" > June </option> <option value="July" > July </option> <option value="August" > August </option> 
+						<option value="September" > September </option> <option value="October" > October </option> <option value="November" > November	</option> 
+						<option value="December" > December </option> 
+					</select></div>
+					
+					<div id="year_select"><select>
+						<option value="Year"> Year </option> <option value="0" > 2016 </option> <option value="1" > 2015 </option> <option value="2" > 2014 </option> <option value="3" > 2013 </option> <option value="4" > 2012 </option>
+						<option value="5" > 2011 </option>	<option value="6" > 2010 </option> <option value="7" > 2009 </option> <option value="8" > 2008 </option> <option value="9" > 2007 </option>
+						<option value="10" > 2006 </option> <option value="11" > 2005 </option> <option value="12" > 2004 </option> <option value="13" > 2003 </option> <option value="14" > 2002 </option>
+						<option value="15" > 2001 </option> <option value="16" > 2000 </option> <option value="17" > 1999 </option> <option value="18" > 1998 </option> <option value="19" > 1997 </option>
+						<option value="20" > 1996 </option> <option value="21" > 1995 </option> <option value="22" > 1994 </option> <option value="23" > 1993 </option>	<option value="24" > 1992 </option>
+						<option value="25" > 1991 </option> <option value="26" > 1990 </option>	<option value="27" > 1989 </option> <option value="28" > 1988 </option> <option value="29" > 1987 </option>
+						<option value="30" > 1986 </option> <option value="31" > 1985 </option> <option value="32" > 1984 </option> <option value="33" > 1983 </option> <option value="34" > 1982 </option>
+						<option value="35" > 1981 </option> <option value="36" > 1980 </option>
+					</select></div>
+					
+						<a href="#">Why do I need to provide my date of birth?</a>
+						<br />
+						<br />
+					<input type="radio" name="sex" value="male" /><span id="radio_btext">Male </span>
+					<input type="radio" name="sex" value="female" /><span id="radio_btext"> Female</span>
+				</form>
+				
+				<div id="CreateAcc_agreement">
+					<p>By clicking Create Account, you agree to our <a href="#">Terms</a> and confirm <br />that you have read our Data Policy, including our 
+					<a href="#">Cookie Use<br /> Policy</a>. You may receive SMS message notifications from <br />Facebook and can opt out at any time.</p>
+				</div>
+				
+				<input type="button" value="Create Account" /> <hr />
+				<p> <a href="#" >Create a page</a> for a celebrity, band or business</p>
+				
+			</div>
+		</div>
+	</div>
+
+	<!-- THIS IS THE FOOTER, CODE LATER... -->
+	<footer>
+		<div id="footer"> 
+			
+		</div>
+	</footer>
+	
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family:tahoma;
+}
+
+
+#header{
+	background-color:003399;
+	color:#fff;
+	height:10%;
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+
+header h2{
+	float:left;
+	margin-top:23px;
+	padding:0px 0px 5px 25%;
+	font-size:40px;
+}
+
+#login_form{
+	float:right;
+	margin-top:15px;
+	margin-right:20px;
+	width:30%;
+	height:10%;
+	font-size:13px;
+}
+
+#email-phone_login{
+	float:left;
+	margin-right:10px;
+}
+
+#password_login{
+	float:left;
+	margin-right:10px;
+}
+
+#login_form input[type="button"]{
+	border-color:000;
+	background-color:003399;
+	font-size:13px;
+	padding:3px 4px;
+	color:white;
+}
+
+#password_login a, #password_login a:link, #password_login a:visited{
+	text-decoration:none;
+	padding-top:10px;
+	color:0066FF;
+}
+
+#password_login a:hover{
+	text-decoration:underline;
+	
+}
+
+#body_section{
+	background-color:CCCCCC;
+	height:600px;
+	width:100%;
+	padding-right:5%;
+}
+
+#right_section{
+	float:left;
+}
+
+#right_section > form > a:link, #right_section > form > a:visited{
+	color:blue;
+	font-size:12px;
+	text-decoration:none;
+}
+
+#right_section > form > a:hover{
+	text-decoration:underline;
+}
+
+#right_section > form > input[type="text"]{
+	font-size:15px;
+	padding:5px 5px;
+	border-radius:5px;
+}
+
+#right_section > input[type="button"]{
+	background-color:green;
+	color:white;
+	font-weight:;
+	font-size:17px;
+	padding:10px 30px;
+	border-radius:5px;
+	border-color:green;
+}
+
+#left_section{
+	float:left;
+}
+
+#day_select {
+	float:left;	
+}
+
+#month_select{
+	float:left;	
+	padding-left:3px;
+}
+
+#year_select{
+	float:left;	
+	padding-left:3px;
+}
+
+#CreateAcc_agreement{
+	font-size:11px;
+}
+
+

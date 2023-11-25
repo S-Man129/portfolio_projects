@@ -1,0 +1,140 @@
+body{
+	margin: 0px;
+	padding: 0px;	
+	background-position: center;
+	font-family: tahoma;
+}
+
+.header{
+	background-color: #192938;
+}
+
+.header h1{
+	color: #fff;
+	font-family: purpose;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*.nav{
+	background-color: #192938;
+}*/
+
+.nav-menu ul{
+	background-color: #192938;
+	margin: 0px;
+	padding: 0px;
+	transition: all 0.4s ease-in-out;
+}
+
+.nav-menu ul li{
+	list-style: none;
+	background-color: #192938;
+}
+
+.nav-menu > ul > li > a{
+	text-decoration: none;
+	padding: 10px 10px;
+	display: inline-block;
+}
+
+.nav-menu > ul ul li a{
+	text-decoration: none;
+	padding: 10px 10px;
+	display: inline-block;
+	width: 170px;
+}
+
+.nav-menu ul li:hover > a{
+	background-color: #0e0e0e8f;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.nav-menu ul ul li{
+	position: relative;
+}
+
+.nav-menu ul ul ul{
+	position: absolute;
+	top: 0%;
+	left: 100%;
+}
+
+.nav-menu > ul ul{
+	position: absolute;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 2;
+}
+
+.nav-menu > ul > li{
+	float: left;
+}
+
+.nav-menu ul li:hover > ul{
+	visibility: visible;
+	opacity: 1;
+}
+
+.nav-menu > ul ul li{
+	border-bottom: 1px solid #264c6f;
+}
+
+.header .search{
+	float: right;	
+	margin-top: -50px;
+}
+
+.card{
+	padding: 5px;
+	background-color: #000;
+}
+
+.card:hover{
+	border: 2px solid lightgrey;
+}
+
+.body{
+	margin-top: 20px;
+}
+
+iframe{
+	height: 100%;
+	border-style: none;
+	overflow: hidden;
+}
+
+.footer{
+	background-color: #000;
+	color: white;
+}
+
+.footer-top{
+	background-color: #333333;
+	text-align: center;
+}
+
+.footer-bottom{
+	background-color: #000;
+}
+
+.footer-top ul li{
+	margin: 0px;
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+#advert{
+	background-color: #000;
+}
+
+#advert a{
+	color: yellow;
+	font-size: 12pt;
+}

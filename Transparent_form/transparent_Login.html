@@ -1,0 +1,167 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+	<style>
+
+		body{
+			padding: 0px;
+			margin: 0px;
+			font-family: tahoma;
+			background-image: url(assets/images/background/blond-1866951_1280.jpg);
+			background-position: center;
+    		background-repeat: no-repeat;
+    	  	background-size: cover;
+
+		}
+
+		.form-container{
+			width: 300px;
+			height: 360px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-60%, -50%);	
+		}
+
+		.form{
+			width: 100%;
+			margin: 0px;
+			background-color: rgba(128, 128, 128, 0.50);
+			padding: 30px 30px;
+			text-align: center;
+		}
+
+		.form input[type='text'], input[type='password']{
+			font-size: 12pt;
+			padding: 20px;
+			padding-left: 20px;
+			height: 36px;
+			width: 100%;
+			border: none;
+			border-bottom: 1px solid black;
+			outline: none;
+			background: transparent;
+		}
+
+		.form button{
+			font-size: 12pt;
+			padding: 10px;
+			height: 36px;
+			width: 100%;
+			background-color: #0d3348;
+			border-style: none;
+			color: #fff;
+			border-radius: 20px;
+			cursor: pointer;
+			outline: none;
+		}
+
+		label{
+			color: white;
+			font-weight: bold;
+			float: left;
+		}
+
+		.username, .password{
+			padding: 10px 0px;			
+		}
+
+		h2{
+			color: brown;
+			text-align: center;
+		}
+
+		#fa{
+			float: left;
+			position: relative;
+			top: -30px;
+			color: rgba(128, 128, 128, 0.58);
+
+		}
+
+		.not_a_member{
+			padding-top: 1%;	
+			vertical-align: bottom;
+			font-size: 10pt;
+			text-align: center;
+		}
+
+		.form a{
+			text-decoration: none;
+			color: red;
+			outline: none;
+		}
+
+		.link_icon{
+			text-align: center;
+		}
+
+		.link_icon img{
+			margin-top: 20px;
+			width: 40;
+			height: 40;
+		}
+		
+		.header{
+			text-align: center;
+			position: relative;
+			top: 150px;
+		}
+		
+		.header h1{
+			color: #0d3348; 
+		}
+
+		::placeholder{
+
+		}
+	</style>
+
+	<script type=text/javascript>
+		var username = document.getElementbyId("#username");
+		var password = document.getElementbyId("#password");
+		var submit = 
+
+	</script>
+
+	<!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/> -->
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css"/>
+	<title>transaparent login form</title>
+</head>
+
+<body>
+	
+	<div class="header">
+		<h1>TRANSPARENT LOGIN FORM</h1>
+	</div>
+		<div class="form-container">
+			<div class="form">
+				<h2>LOGIN HERE</h2>
+				<form method="get">
+					<p class="username">
+						<label>Username</label>
+						<input class="username" type="text" placeholder="Email" id="username" />
+						<span class="fa fa-user" id="fa"></span>
+					</p>
+					<p class="password">
+						<label>Password</label>
+						<input class="password" type="password" placeholder="Password" id="password" />
+						<span class="fa fa-lock" id="fa"></span>
+					</p>
+					<button class="login_button" type="submit" id="submit">login</button>
+				</form>
+				<span class="not_a_member"><p>if you are not member <a href="http://facebook.com/login">click here to sign up</a></p></span>
+			</div>	
+			<!--<div class="link_icon">
+				<img src="assets/images/social icon/facebook-png.png"/>
+				<img src="assets/images/social icon/instagram-png.png"/>
+				<img src="assets/images/social icon/twitter-png.png"/>
+				<img src="assets/images/social icon/pinterest-png.png"/>
+			</div>-->
+		</div>
+	</div>
+<!-- <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="assets/js/transparent_login.js"></script> -->
+</body>
+</html>

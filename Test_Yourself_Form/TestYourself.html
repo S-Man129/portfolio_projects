@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<style>
+		body{
+			margin: 0px;
+			padding: 0px;
+			font-family: tahoma;
+			font-size: 12pt;
+			background-image:  url(http://ikes.wpengine.com/wp-content/uploads/2015/02/dust_pattern.png);
+		}
+
+		.container{
+			width: 90%;
+			margin: auto;
+			background-color: #fff;
+			box-shadow: 0px 10px 20px rgba(169, 168, 150, 0.87);
+			padding: 10px;
+		}
+
+		.header{
+			background-image:  url(http://ikes.wpengine.com/wp-content/uploads/2015/02/dust_pattern.png);
+			background-color: #000;
+			border-radius: 0px 0px 15px 15px;
+			/*border-radius: 5px;*/
+		}
+
+		#logo img{
+			float: left;
+		}
+
+		#search{
+			float: right;
+			margin-top: 20px;
+			margin-right: 10px;
+		}
+
+		.clear{
+			clear: both;
+		}
+
+		h1{
+			color: red;
+		}
+
+		.nav{
+			color: #fff;
+			text-align: center;
+			font-size: 15pt;
+			height: 50px;
+			border-radius: 5px;
+		}
+
+		.nav ul li{
+			list-style: none;
+			display: inline-block;
+		}
+
+		.nav ul li a{
+			padding: 10px 30px;
+			color: #fff;
+			text-decoration: none;
+		}
+
+		.nav ul li a:hover{
+			background-color: #ffffff0f;
+			box-shadow: 0px 0px 100px rgba(234, 234, 85, 0.87);
+		}
+
+		input[type="text"]{
+			font-size: 12pt;
+			padding: 3px 5px;
+		}
+
+		#search button{
+			font-size: 12pt;
+			padding: 5px 5px;
+			background-color: #129a12;
+			color: #fff;
+			font-weight: bold;
+			border-width: 0px;
+		}
+
+		fieldset{
+			
+			border-radius: 10px;
+		}
+
+		table{
+			border-collapse: collapse;	
+			width: auto;		
+		}
+
+		table tr td{
+			padding: 5px 10px;
+		}
+
+		#submit_button{
+			font-size: 14pt;
+			padding: 7px 5px;
+			background-color: #000;
+			background-image:  url(http://ikes.wpengine.com/wp-content/uploads/2015/02/dust_pattern.png);
+			color: #fff;
+			font-weight: bold;
+			border-width: 0px;
+			width: 30%;
+			margin-top: 20px;
+			border-radius: 10px ;
+		}
+
+		#submit{
+			text-align: center;
+		}
+
+		.footer{
+			background-color: #000;
+			color: #fff;
+			text-align: center;
+			height: 50px;
+			background-image:  url(http://ikes.wpengine.com/wp-content/uploads/2015/02/dust_pattern.png);
+			border-radius: 20px 20px 0px 0px ;
+		}
+
+	</style>
+	
+	<title>testyourself</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="header">
+			<div id="logo"><img src="TestYourself logo.png" ></div>
+			<div id="search">
+				<form><input type="text" placeholder="search" /><button type="submit" value="Search">Search</button></form>
+			</div>
+
+			<div class="clear"></div>
+			
+			<div class="nav">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">More</a></li>
+					<li><a href="#">Login</a></li>
+				</ul>
+			</div>	
+		</div>
+
+
+
+		<div class="body">
+			<h1>BIODATA</h1>
+
+			<fieldset>
+				<legend>YOUR DATA</legend>
+				<table border="1">
+					<tr>
+						<td>First Name:</td>
+						<td> <input type="text" name="firstname" placeholder="firstname" /> </td>
+						<td>Surname:</td>
+						<td> <input type="text" name="surname" placeholder="surname" /> </td>
+						<td>Other Name:</td>
+						<td> <input type="text" name="othername" placeholder="othername" /> </td>
+					</tr>
+
+					<tr>
+						<td>Sex:</td>
+						<td> <select>
+								<option value="">--</option>			
+								<option value="male">Male</option>
+								<option value="female">Female</option>
+						</select> </td>
+						<td>Nationality:</td>
+						<td> <select>
+								<option value="">--</option>			
+								<option value="nigerian">Nigerian</option>
+								<option value="foreigner">Non-nigerian</option>
+						</select> </td>
+						<td>Marital Status:</td>
+						<td> <select>
+								<option value="">--</option>			
+								<option value="single">Single</option>
+								<option value="married">Married</option>
+								<option value="divorce">Divorce</option>
+						</select> </td>
+					</tr>
+
+					<tr>
+						<td>State:</td>
+						<td> <select>
+								<option value="">--</option>			
+								<option value="state1">FCT(Abuja)</option>
+								<option value="state2">Akwa Ibom</option>
+						</select> </td>
+						<td>Religion:</td>
+						<td> <select>
+								<option value="">--</option>			
+								<option value="islam">Islam</option>
+								<option value="christianity">Christianity</option>
+								<option value="traditional">Traditional</option>
+						</select> </td>
+						<td>Date Of Birth:</td>
+						<td><marquee style="color: red">COMING SOON...!</marquee></td>
+					</tr>
+					<tr>
+						<td>Phone Number:</td>
+						<td> <input type="text" name="phonenumber" placeholder="phonenumber" /> </td>
+						<td>Email:</td>
+						<td> <input type="text" name="email" placeholder="email" /> </td>
+						
+					</tr>
+				</table>
+			</fieldset>
+				<div class="clear"></div>
+			<fieldset>
+				<legend>GUIDIAN/SPONSOR</legend>
+				<table border="1">
+					<tr>
+						<td>Name:</td>
+						<td> <input type="text" name="firstname" placeholder="firstname" /> </td>
+						<td>Address:</td>
+						<td> <input type="text" name="address" placeholder="address" /> </td>
+					</tr>
+					<tr>
+						<td>Phone Number:</td>
+						<td> <input type="text" name="phonenumber" placeholder="phonenumber" /> </td>
+						<td>Email:</td>
+						<td> <input type="text" name="email" placeholder="email" /> </td>
+					</tr>
+				</table>
+			</fieldset>
+				<div class="clear"></div>
+			<fieldset>
+				<legend>NEXT OF KIN</legend>
+				<table border="1">
+					<tr>
+						<td>First Name:</td>
+						<td> <input type="text" name="firstname" placeholder="firstname" /> </td>
+						<td>Surname:</td>
+						<td> <input type="text" name="surname" placeholder="surname" /> </td>
+					</tr>
+					<tr>
+						<td>Other Name:</td>
+						<td> <input type="text" name="othername" placeholder="othername" /> </td>
+						<td>Address:</td>
+						<td> <input type="text" name="address" placeholder="address" /> </td>
+					</tr>
+					<tr>
+						<td>Phone Number:</td>
+						<td> <input type="text" name="phonenumber" placeholder="phonenumber" /> </td>
+						<td>Email:</td>
+						<td> <input type="text" name="email" placeholder="email" /> </td>
+					</tr>
+				</table>
+
+			</fieldset>
+		</div>
+			
+			<div id="submit">
+				<form><button type="submit" id="submit_button"> SUBMIT </button></form>
+			</div>
+		
+		<div class="footer">
+			<p>&copy; 2018 TestYourself.com</p>
+		</div>
+	</div>
+</body>
+
+</html>
